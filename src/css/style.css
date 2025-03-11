@@ -1,0 +1,268 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.left, .right {
+    flex: 1; 
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+
+.left{
+    position: relative;
+}
+
+.back-image-left, .back-image-right{
+    height: 110%;
+    width: 89%;
+}
+
+.back-image-left{
+    background-color: var(--primery-2);
+
+    border-bottom-right-radius: 50% 30%;
+    border-bottom-left-radius: 50% 30%;
+    transform: translateX(-35%) translateY(-20%);
+}
+
+/* TOP CELPHONE */
+
+.celphone{
+    position: absolute;
+    bottom: 0; 
+    left: 48.5%;  
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 270px;
+    height: 500px;
+    background-color: var(--secundary-1);
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 10px 20px 40px 2px rgba(0,0,0,0.2);
+    
+}
+
+.top{
+    background-image: linear-gradient(to right, var(--gradient-2), var(--gradient-1));
+    border-radius: 20px 20px 0 0;
+
+
+}
+
+.top .notch{
+    background-color: var(--secundary-1);
+    height: 2rem;
+    width: 15rem;
+    margin: auto;
+    border-radius: 0  0 15px 15px;
+}
+
+.top .description{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.top .description .avatar {
+    display: flex;
+    
+}
+
+.top .description .avatar .set::before{
+    content: "<";
+    color: var(--secundary-1);
+    font-size: 2rem;
+}
+
+.top .description .avatar img{
+    height: 25px;
+    border: 1px solid var(--secundary-1);
+    border-radius: 20px;
+    margin-left: 1rem;
+}
+
+.description .information{
+    margin-left: 0.75rem;
+    color: var(--secundary-1);
+}
+
+.description .information .name{
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+    font-weight: 500;
+}
+
+.description .information .stats{
+    font-size: .9rem;
+    font-weight: 400;
+
+}
+
+.description .configuration{
+    display: flex;
+    justify-content: center;
+    right: 0;
+}
+
+.description .configuration .doc{
+    background-color: var(--secundary-1);
+    align-self: center;
+    position: relative;
+    display: block;
+    width: .2rem;
+    height: .2rem;
+    margin-left: 8.5rem;
+}
+
+.description .configuration .doc::before, .description .configuration .doc::after{
+    background-color: var(--secundary-1);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.description .configuration .doc::before{
+    top: -3px;
+}
+
+.description .configuration .doc::after{
+    bottom: -3px;
+}
+
+/* BODY CELPHONE */
+
+.body-phone{
+    background-color: var(--secundary-2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.body-phone .text-message{
+    background-color: var(--primery-4);
+    max-width: 15rem;
+    padding: .5rem;
+    color: var(--primery-2);
+    border-radius: 10px 10px 10px 5px;
+}
+
+.body-phone .message-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+.body-phone .message-left .images {
+    display: flex;
+    gap: 10px;
+}
+
+.body-phone .message-left .text-message{
+    background-color: var(--secundary-1);
+    color: rgba(0, 0, 0, .7);
+    border-radius: 10px 10px 5px 10px;
+}
+.body-phone .message-left img{
+    height: 4rem;
+    border-radius: 10px;
+}
+
+.body-phone .chose{
+    display: flex;
+    background-color: var();
+    background-image: linear-gradient(to right, var(--gradient-1), var(--gradient-2));
+    max-width: 18rem;
+    border-radius: 10px 10px 10px 5px;
+    padding: 10px;
+    color: var(--secundary-1);
+    font-weight: 400;
+    align-items: center;
+       
+}
+
+.body-phone .chose input{
+    background-color: var(--gradient-1);
+    margin-right: .70rem;
+}
+
+.body-phone .chose p{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-left: 3.5rem;
+
+}
+
+.body-phone .bottom-phone{
+    display: flex;
+    background-color: var(--secundary-1);
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    padding-right: 1rem;
+}
+
+.body-phone .bottom-phone input{
+    border: none;
+    margin-left: 2rem;
+}
+
+.body-phone .bottom-phone input::placeholder{
+    color: var(--primery-3);
+    font-size: 1rem;
+}
+
+.body-phone .bottom-phone .set-bottom{
+    background-color: var(--primery-5);
+    padding: 2px 10px;
+    color: var(--secundary-1);
+    font-size: 2rem;
+    border-radius: 100px;
+}
+
+
+.right .comment{
+    position: absolute;
+    max-width: 41rem;
+    line-height: 2.5rem;
+
+    z-index: 1;
+
+}
+
+.right .comment .title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+}
+
+.right .comment .coment{
+    font-size: 1.5rem;
+    color: var(--primery-6);
+    
+}
+
+.right .back-image-right{
+    background-color: var(--secundary-2);   
+    border-top-right-radius: 50% 30%;
+    border-top-left-radius: 50% 30%;
+    transform: translateX(55%) translateY(20%);
+}
+
