@@ -11,8 +11,6 @@ Esta é uma solução para o [Frontend Mentor -Chat app CSS illustration](https:
 
 **To do this challenge, you need a strong understanding of HTML and CSS.**
 
-## Construido com
-
 ### Construído com
 
 - HTML5
