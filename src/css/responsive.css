@@ -34,32 +34,3 @@
         
 }
 
-/* @media (max-width:400px){
-    .celphone{
-        margin-top: 8rem;
-    }
-
-    .right .comment{
-       margin-top: 10rem;
-       
-    }
-}
-
-@media (max-width:590px){
-
-    .container{
-        padding: 1rem;
-        
-    }
-    .celphone{
-        left: 0%;
-        margin-top: 10rem;
-        z-index: 1;
-        background-color: red;
-    }
-
-    .right .comment{
-       margin-top: 10rem;
-       
-    }
-} */
