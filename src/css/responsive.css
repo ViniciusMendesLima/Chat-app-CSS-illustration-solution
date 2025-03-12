@@ -6,7 +6,7 @@
 
 }
 
-@media(max-width: 440px){
+@media(max-width: 660px){
     .container{
         max-height: 950px;
         overflow: visible;
