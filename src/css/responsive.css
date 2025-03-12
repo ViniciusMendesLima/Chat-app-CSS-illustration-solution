@@ -17,19 +17,22 @@
     }
 }
 
-@media (max-width:440px){
+@media (max-width:350px){
     .container{
         gap: 15rem;
+        padding: 2rem;
     }
 
     .celphone{
-        left: 10%;
-        margin-top: 5rem;
+        left: 5%;
+        margin-top: 10rem;
 
     }
 
     .right .comment{
         left: 10%;
+        margin-top: 10rem;
+        padding-bottom: 2rem;
     }
         
 }
