@@ -44,3 +44,19 @@
        
     }
 }
+
+@media (max-width:300px){
+
+    .container{
+        padding: 1rem;
+    }
+    .celphone{
+        left: 0%;
+        margin-top: 10rem;
+    }
+
+    .right .comment{
+       margin-top: 10rem;
+       
+    }
+}
